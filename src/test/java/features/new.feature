@@ -1,6 +1,6 @@
-Feature: maeve is the 
+Feature: Integrate with AWS 
 
-Scenario: test this
-Given try this
-When do this
-Then verify the result
+Scenario: Work this in a jenkins in AWS
+Given The user is in the login page
+When The user enters the invalid credentials
+Then The user should not be signed on 

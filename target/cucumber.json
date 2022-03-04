@@ -4,54 +4,54 @@
     "elements": [
       {
         "line": 3,
-        "name": "test this",
+        "name": "Work this in a jenkins in AWS",
         "description": "",
-        "id": "maeve-is-the;test-this",
+        "id": "integrate-with-aws;work-this-in-a-jenkins-in-aws",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 445823500,
+              "duration": 11262335900,
               "status": "passed"
             },
             "line": 4,
-            "name": "try this",
+            "name": "The user is in the login page",
             "match": {
-              "location": "maeve.try_this()"
+              "location": "SD_AWS.the_user_is_in_the_login_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 199300,
+              "duration": 1752852300,
               "status": "passed"
             },
             "line": 5,
-            "name": "do this",
+            "name": "The user enters the invalid credentials",
             "match": {
-              "location": "maeve.do_this()"
+              "location": "SD_AWS.the_user_enters_the_invalid_credentials()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 171100,
+              "duration": 1727399700,
               "status": "passed"
             },
             "line": 6,
-            "name": "verify the result",
+            "name": "The user should not be signed on",
             "match": {
-              "location": "maeve.verify_the_result()"
+              "location": "SD_AWS.the_user_should_not_be_signed_on()"
             },
             "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "maeve is the",
+    "name": "Integrate with AWS",
     "description": "",
-    "id": "maeve-is-the",
+    "id": "integrate-with-aws",
     "keyword": "Feature",
     "uri": "src/test/java/features/new.feature"
   }

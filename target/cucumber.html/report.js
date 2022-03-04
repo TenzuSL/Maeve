@@ -1,53 +1,53 @@
 $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/java/features/new.feature");
 formatter.feature({
   "line": 1,
-  "name": "maeve is the",
+  "name": "Integrate with AWS",
   "description": "",
-  "id": "maeve-is-the",
+  "id": "integrate-with-aws",
   "keyword": "Feature"
 });
 formatter.scenario({
   "line": 3,
-  "name": "test this",
+  "name": "Work this in a jenkins in AWS",
   "description": "",
-  "id": "maeve-is-the;test-this",
+  "id": "integrate-with-aws;work-this-in-a-jenkins-in-aws",
   "type": "scenario",
   "keyword": "Scenario"
 });
 formatter.step({
   "line": 4,
-  "name": "try this",
+  "name": "The user is in the login page",
   "keyword": "Given "
 });
 formatter.step({
   "line": 5,
-  "name": "do this",
+  "name": "The user enters the invalid credentials",
   "keyword": "When "
 });
 formatter.step({
   "line": 6,
-  "name": "verify the result",
+  "name": "The user should not be signed on",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "maeve.try_this()"
+  "location": "SD_AWS.the_user_is_in_the_login_page()"
 });
 formatter.result({
-  "duration": 445823500,
+  "duration": 11262335900,
   "status": "passed"
 });
 formatter.match({
-  "location": "maeve.do_this()"
+  "location": "SD_AWS.the_user_enters_the_invalid_credentials()"
 });
 formatter.result({
-  "duration": 199300,
+  "duration": 1752852300,
   "status": "passed"
 });
 formatter.match({
-  "location": "maeve.verify_the_result()"
+  "location": "SD_AWS.the_user_should_not_be_signed_on()"
 });
 formatter.result({
-  "duration": 171100,
+  "duration": 1727399700,
   "status": "passed"
 });
 });
