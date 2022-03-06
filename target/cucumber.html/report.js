@@ -33,21 +33,21 @@ formatter.match({
   "location": "SD_AWS.the_user_is_in_the_login_page()"
 });
 formatter.result({
-  "duration": 11262335900,
+  "duration": 16994928500,
   "status": "passed"
 });
 formatter.match({
   "location": "SD_AWS.the_user_enters_the_invalid_credentials()"
 });
 formatter.result({
-  "duration": 1752852300,
+  "duration": 1709026700,
   "status": "passed"
 });
 formatter.match({
   "location": "SD_AWS.the_user_should_not_be_signed_on()"
 });
 formatter.result({
-  "duration": 1727399700,
+  "duration": 1741905300,
   "status": "passed"
 });
 });
