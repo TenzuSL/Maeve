@@ -17,7 +17,8 @@ public class SD_AWS {
 	@Given("^The user is in the login page$")
     public void the_user_is_in_the_login_page() throws Throwable {
      
-		System.setProperty("webdriver.chrome.driver", "/usr/bin/google-chrome");
+		System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
+//		System.setProperty("webdriver.chrome.driver", "C:\\Automation\\Drivers\\chromedriver.exe");
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("headless");
 		driver = new ChromeDriver(options);

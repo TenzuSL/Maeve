@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="20.44586">
-    <testcase classname="Integrate with AWS" name="Work this in a jenkins in AWS" time="20.44586">
-        <system-out>
-            <![CDATA[Given The user is in the login page.........................................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="18.093932">
+    <testcase classname="Integrate with AWS" name="Work this in a jenkins in AWS" time="18.093932">
+        <system-out><![CDATA[Given The user is in the login page.........................................passed
 When The user enters the invalid credentials................................passed
 Then The user should not be signed on.......................................passed
-]]>
-        </system-out>
+]]></system-out>
     </testcase>
 </testsuite>
